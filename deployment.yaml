@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: 907322329163.dkr.ecr.us-east-2.amazonaws.com/dockerimage:1.1
+          image: 907322329163.dkr.ecr.us-west-2.amazonaws.com/dockerrepo:1.1
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
